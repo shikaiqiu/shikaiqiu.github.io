@@ -1,24 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
-  # image: prof_pic.jpg
+  image: photo.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Computer Sciecne PhD student at NYU, working with Andrew Gordon Wilson.
+I'm a first-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I want to understand how to build models capable of achieving strong generalization. I'm currently interested in Bayesian methods, function space modeling, symmetries, and equivariance. You can reach me at sq2129@nyu.edu.
+
+In Dec 2021, I received my bachelor's degree in Physics and Computer Science from UC Berkeley, where I was grateful to have worked with [Jennifer Listgarten](http://www.jennifer.listgarten.com/) and [Haichen Wang](https://hwang43.web.cern.ch/) on using equivariant deep learning models to tackle problems in high energy physics and biochemistry. 
+
+In summer 2022, I worked on modeling protein structures as a research intern at Meta AI's protein team led by [Alex Rives](https://scholar.google.com/citations?user=vqb78-gAAAAJ&hl=en) and [Tom Sercu](https://tom.sercu.me/).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
