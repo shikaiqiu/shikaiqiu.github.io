@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a first-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I want to understand how to build models capable of achieving strong generalization. I'm currently interested in Bayesian methods, function space modeling, symmetries, and equivariance. You can reach me at sq2129@nyu.edu.
+I'm a first-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I want to understand how to build models capable of achieving strong generalization. I'm currently interested in Bayesian methods, function space modeling, symmetries, and equivariance. You can reach me at [sq2129@nyu.edu](sq2129@nyu.edu).
 
 In Dec 2021, I received my bachelor's degree in Physics and Computer Science from UC Berkeley, where I was grateful to have worked with [Jennifer Listgarten](http://www.jennifer.listgarten.com/) and [Haichen Wang](https://hwang43.web.cern.ch/) on using equivariant deep learning models to tackle problems in high energy physics and biochemistry. 
 
