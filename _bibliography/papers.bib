@@ -1,50 +1,47 @@
----
----
+@article{qiu2023simple,
+  title={Simple and Fast Group Robustness by Automatic Feature Reweighting},
+  author={Qiu, Shikai and Potapczynski, Andres and Izmailov, Pavel and Wilson, Andrew Gordon},
+  journal={International Conference on Machine Learning (ICML) 2023},
+  year={2023},
+  selected={true},
+  abstract={A major challenge to out-of-distribution generalization is reliance on spurious features -- patterns that are predictive of the class label in the training data distribution, but not causally related to the target. Standard methods for reducing the reliance on spurious features typically assume that we know what the spurious feature is, which is rarely true in the real world. Methods that attempt to alleviate this limitation are complex, hard to tune, and lead to a significant computational overhead compared to standard training. In this paper, we propose Automatic Feature Reweighting (AFR), an extremely simple and fast method for updating the model to reduce the reliance on spurious features. AFR retrains the last layer of a standard ERM-trained base model with a weighted loss that emphasizes the examples where the ERM model predicts poorly, automatically upweighting the minority group without group labels. With this simple procedure, we improve upon the best reported results among competing methods trained without spurious attributes on several vision and natural language classification benchmarks, using only a fraction of their compute.},
+  preview={afr.png},
+  html={https://arxiv.org/pdf/2306.11074.pdf},
+}
 
-
-
-@article{qiu2022holistic,
-  abbr={arXiv},
-  title={A Holistic Approach to Predicting Top Quark Kinematic Properties with the Covariant Particle Transformer},
+@article{qiu2023parton,
+  title={Parton Labeling without Matching: Unveiling Emergent Labelling Capabilities in Regression Models},
   author={Qiu, Shikai and Han, Shuo and Ju, Xiangyang and Nachman, Benjamin and Wang, Haichen},
-  year={2022},
-  journal={arXiv preprint arXiv:2203.05687},
+  journal={arXiv},
+  year={2023},
+  abstract={Parton labeling methods are widely used when reconstructing collider events with top quarks or other massive particles. State-of-the-art techniques are based on machine learning and require training data with events that have been matched using simulations with truth information. In nature, there is no unique matching between partons and final state objects due to the properties of the strong force and due to acceptance effects. We propose a new approach to parton labeling that circumvents these challenges by recycling regression models. The final state objects that are most relevant for a regression model to predict the properties of a particular top quark are assigned to said parent particle without having any parton-matched training data. This approach is demonstrated using simulated events with top quarks and outperforms the widely-used \(\chi^2\>\) method.},
+  html={https://arxiv.org/pdf/2304.09208.pdf},
+  preview={jets.jpeg},
+  selected={true},
+}
+
+@article{qiu2023holistic,
+  title={Holistic approach to predicting top quark kinematic properties with the covariant particle transformer},
+  author={Qiu, Shikai and Han, Shuo and Ju, Xiangyang and Nachman, Benjamin and Wang, Haichen},
+  journal={Physical Review D},
+  volume={107},
+  number={11},
+  pages={114029},
+  year={2023},
+  publisher={APS},
   abstract={Precise reconstruction of top quark properties is a challenging task at the Large Hadron Collider due to combinatorial backgrounds and missing information. We introduce a physics-informed neural network architecture called the Covariant Particle Transformer (CPT) for directly predicting the top quark kinematic properties from reconstructed final state objects. This approach is permutation invariant and partially Lorentz covariant and can account for a variable number of input objects. In contrast to previous machine learning-based reconstruction methods, CPT is able to predict top quark four-momenta regardless of the jet multiplicity in the event. Using simulations, we show that the CPT performs favorably compared with other machine learning top quark reconstruction approaches.},
-  html={https://arxiv.org/abs/2203.05687},
+  html={https://journals.aps.org/prd/pdf/10.1103/PhysRevD.107.114029},
+  selected={true},
   preview={ttH_feynman.png},
-  selected={true}
 }
 
 @article{atlas2023model,
-  abbr={arXiv},
   title={Model-independent search for the presence of new physics in events including \( H\rightarrow\gamma\gamma\> \) with \(\sqrt {s}\) = 13 TeV pp data recorded by the ATLAS detector at the LHC},
   author={ATLAS Collaboration and others},
-  journal={arXiv preprint arXiv:2301.10486},
+  journal={Journal of High Energy Physics},
   year={2023},
   html={https://arxiv.org/abs/2301.10486},
-  abstract={A model-independent search for new physics leading to final states containing \(H\rightarrow\gamma\gamma\>\)  decays is performed with 139 fb\(^\{−1\}\>\) of \(\sqrt {s}\) = 13 TeV pp collision data recorded by the ATLAS detector at the Large Hadron Collider at CERN. This search examines 22 final states categorized by the objects that are produced in association with the Higgs boson. These objects include isolated electrons or muons, hadronically decaying \(\tau\)-leptons, additional photons, missing transverse momentum, and hadronic jets, as well as jets that are tagged as containing a \(b\)-hadron. No significant excesses above Standard Model expectations are observed and limits on the production cross section at 95% confidence level are set. Detector efficiencies are reported for all 22 signal regions, which can be used to convert detector-level cross-section limits reported in this paper to particle-level cross-section constraints.},
+  abstract={A model-independent search for new physics leading to final states containing \(H\rightarrow\gamma\gamma\>\)  decays is performed with 139 fb\(^\{−1\}\>\) of \(\sqrt {s}\) = 13 TeV pp collision data recorded by the ATLAS detector at the Large Hadron Collider at CERN. This search examines 22 final states categorized by the objects that are produced in association with the Higgs boson. These objects include isolated electrons or muons, hadronically decaying \(\tau\)-leptons, additional photons, missing transverse momentum, and hadronic jets, as well as jets that are tagged as containing a \(b\)-hadron. No significant excesses above Standard Model expectations are observed and limits on the production cross section at 95{%} confidence level are set. Detector efficiencies are reported for all 22 signal regions, which can be used to convert detector-level cross-section limits reported in this paper to particle-level cross-section constraints.},
   preview={Hyy_limit.png},
   selected={true}
-}
-
-@string{aps = {American Physical Society,}}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={false}
 }
