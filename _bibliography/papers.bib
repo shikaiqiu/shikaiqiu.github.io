@@ -1,3 +1,14 @@
+@article{qiu2023should,
+  title={Should We Learn Most Likely Functions or Parameters?},
+  author={Qiu, Shikai and Rudner, Tim GJ and Kapoor, Sanyam and Wilson, Andrew Gordon},
+  journal={Advances in Neural Information Processing Systems},
+  selected={true},
+  year={2023},
+  abstract={Standard regularized training procedures correspond to maximizing a posterior distribution over parameters, known as maximum a posteriori (MAP) estimation. However, model parameters are of interest only insomuch as they combine with the functional form of a model to provide a function that can make good predictions. Moreover, the most likely parameters under the parameter posterior do not generally correspond to the most likely function induced by the parameter posterior. In fact, we can re-parametrize a model such that any setting of parameters can maximize the parameter posterior. As an alternative, we investigate the benefits and drawbacks of directly estimating the most likely function implied by the model and the data. We show that this procedure leads to pathological solutions when using neural networks and prove conditions under which the procedure is well-behaved, as well as a scalable approximation. Under these conditions, we find that function-space MAP estimation can lead to flatter minima, better generalization, and improved robustness to overfitting.},
+  preview={fsmap.png},
+  html={https://arxiv.org/abs/2311.15990},
+}
+
 @article{gruver2023llmtime,
     title={Large Language Models Are Zero Shot Time Series Forecasters},
     author={Gruver, Nate and Finzi, Marc and Qiu, Shikai and Wilson, Andrew Gordon},
@@ -17,7 +28,7 @@
   selected={true},
   abstract={A major challenge to out-of-distribution generalization is reliance on spurious features -- patterns that are predictive of the class label in the training data distribution, but not causally related to the target. Standard methods for reducing the reliance on spurious features typically assume that we know what the spurious feature is, which is rarely true in the real world. Methods that attempt to alleviate this limitation are complex, hard to tune, and lead to a significant computational overhead compared to standard training. In this paper, we propose Automatic Feature Reweighting (AFR), an extremely simple and fast method for updating the model to reduce the reliance on spurious features. AFR retrains the last layer of a standard ERM-trained base model with a weighted loss that emphasizes the examples where the ERM model predicts poorly, automatically upweighting the minority group without group labels. With this simple procedure, we improve upon the best reported results among competing methods trained without spurious attributes on several vision and natural language classification benchmarks, using only a fraction of their compute.},
   preview={afr.png},
-  html={https://arxiv.org/pdf/2306.11074.pdf},
+  html={https://arxiv.org/abs/2306.11074},
 }
 
 @article{qiu2023parton,
@@ -26,7 +37,7 @@
   journal={The European Physical Journal C},
   year={2023},
   abstract={Parton labeling methods are widely used when reconstructing collider events with top quarks or other massive particles. State-of-the-art techniques are based on machine learning and require training data with events that have been matched using simulations with truth information. In nature, there is no unique matching between partons and final state objects due to the properties of the strong force and due to acceptance effects. We propose a new approach to parton labeling that circumvents these challenges by recycling regression models. The final state objects that are most relevant for a regression model to predict the properties of a particular top quark are assigned to said parent particle without having any parton-matched training data. This approach is demonstrated using simulated events with top quarks and outperforms the widely-used \(\chi^2\>\) method.},
-  html={https://arxiv.org/pdf/2304.09208.pdf},
+  html={https://arxiv.org/abs/2304.09208},
   preview={jets.jpeg},
   selected={true},
 }

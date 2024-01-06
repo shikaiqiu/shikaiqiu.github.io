@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a second-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I aim to understand how to efficiently build models capable of achieving strong generalization. I have worked on probabilistic methods, transfer learning, LLMs, and the connection between physics and ML. You can reach me at [sq2129@nyu.edu](mailto:sq2129@nyu.edu).
+I'm a second-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I'm interested in building intelligent machines. You can reach me at [sq2129@nyu.edu]().
 
 
 In the summer of 2022, I worked on modeling protein structures as a research intern at Meta AI's protein team, led by [Alex Rives](https://scholar.google.com/citations?user=vqb78-gAAAAJ&hl=en) and [Tom Sercu](https://tom.sercu.me/). In the summer of 2023, I worked with [Boran Han](https://scholar.google.com/citations?user=Prwxh24AAAAJ&hl=en) and [Danielle Robinson](https://dcmaddix.github.io/) at Amazon AWS on enabling compute efficient transfer learning with foundation models.
