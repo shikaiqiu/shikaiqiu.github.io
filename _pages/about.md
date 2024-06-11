@@ -15,12 +15,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a second-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I'm interested in building intelligent machines. You can reach me at [sq2129@nyu.edu]().
+I'm a second-year PhD student in Computer Science at [NYU Courant](https://cs.nyu.edu/home/index.html), working with [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I'm interested in the science of scaling neural networks. You can reach me at [sq2129@nyu.edu]().
 
 
-In the summer of 2022, I worked on modeling protein structures as a research intern at Meta AI's protein team, led by [Alex Rives](https://scholar.google.com/citations?user=vqb78-gAAAAJ&hl=en) and [Tom Sercu](https://tom.sercu.me/). In the summer of 2023, I worked with [Boran Han](https://scholar.google.com/citations?user=Prwxh24AAAAJ&hl=en) and [Danielle Robinson](https://dcmaddix.github.io/) at Amazon AWS on enabling compute efficient transfer learning with foundation models.
+I'm a Student Researcher at Google DeepMind supervised by [Jeffrey Pennington](https://scholar.google.com/citations?user=cn_FoswAAAAJ&hl=en). Previously, I worked with [Alex Rives](https://scholar.google.com/citations?user=vqb78-gAAAAJ&hl=en) and [Tom Sercu](https://tom.sercu.me/) at Meta AI's protein team, and with [Boran Han](https://scholar.google.com/citations?user=Prwxh24AAAAJ&hl=en) and [Danielle Robinson](https://dcmaddix.github.io/) at Amazon AWS.
 
-In Dec 2021, I received my bachelor's degree in Physics and Computer Science from UC Berkeley. There, I worked with [Jennifer Listgarten](http://www.jennifer.listgarten.com/), [Haichen Wang](https://hwang43.web.cern.ch/) and [Ben Nachman](https://nachmangroup.github.io/) on the use of equivariant deep learning models to tackle problems in high energy physics and biochemistry. 
+I studied Physics and Computer Science at UC Berkeley, where I worked with [Jennifer Listgarten](http://www.jennifer.listgarten.com/), [Haichen Wang](https://hwang43.web.cern.ch/) and [Ben Nachman](https://nachmangroup.github.io/) on developing equivariant deep learning models for high energy physics and biochemistry. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
