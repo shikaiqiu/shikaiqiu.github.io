@@ -1,0 +1,69 @@
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+ 
+:root {
+  --global-bg-color: #{$white-color};
+  --global-code-bg-color: #F5F7FA;
+  --global-text-color: #1A1A1A;
+  --global-text-color-light: #6B7280;
+  --global-theme-color: #4285F4;
+  --global-hover-color: #1A73E8;
+  --global-footer-bg-color: #{$white-color};
+  --global-footer-text-color: #6B7280;
+  --global-footer-link-color: #4285F4;
+  --global-distill-app-color: #6B7280;
+  --global-divider-color: rgba(0,0,0,.08);
+  --global-card-bg-color: #{$white-color};
+  --global-navbar-bg-color: #4285F4;
+  --global-navbar-text-color: #FFFFFF;
+
+  .fa-sun {
+    display : none;
+  }
+  .fa-moon {
+    padding-left: 10px;
+    padding-top: 12px;
+    display : block;
+  }
+
+  .repo-img-light {
+    display: block;
+  }
+  .repo-img-dark {
+    display: none;
+  }
+}
+
+html[data-theme='dark'] {
+  --global-bg-color: #{$grey-color-dark};
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-text-color: #{$grey-color-light};
+  --global-text-color-light: #{$grey-color-light};
+  --global-theme-color: #8AB4F8;
+  --global-hover-color: #4285F4;
+  --global-footer-bg-color: #1A73E8;
+  --global-footer-text-color: rgba(255,255,255,0.9);
+  --global-footer-link-color: #FFFFFF;
+  --global-distill-app-color: #{$grey-color-light};
+  --global-divider-color: #424246;
+  --global-card-bg-color: #{$grey-900};
+  --global-navbar-bg-color: #1A73E8;
+  --global-navbar-text-color: #FFFFFF;
+
+  .fa-sun {
+    padding-left: 10px;
+    padding-top: 12px;
+    display : block;
+  }
+  .fa-moon {
+    display : none;
+  }
+
+  .repo-img-light {
+    display: none;
+  }
+  .repo-img-dark {
+    display: block;
+  }
+}
